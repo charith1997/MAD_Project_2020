@@ -14,7 +14,7 @@ public class AdminHome extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin_home);
 
-        Button btn1 = (Button) findViewById(R.id.button);
+        Button btn1 = findViewById(R.id.button);
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
