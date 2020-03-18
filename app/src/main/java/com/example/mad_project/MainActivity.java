@@ -18,12 +18,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button goBtn = (Button) findViewById(R.id.button3);
+        Button btn_login = (Button) findViewById(R.id.button2);
 
-        goBtn.setOnClickListener(new View.OnClickListener() {
+        btn_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,RegisterPage.class);
+                Intent intent = new Intent(MainActivity.this, AdminHome.class);
                 startActivity(intent);
             }
         });
