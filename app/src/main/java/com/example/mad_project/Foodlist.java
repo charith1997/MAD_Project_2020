@@ -7,20 +7,20 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-
-public class MainActivity extends AppCompatActivity {
+public class Foodlist extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_foodlist);
 
-        Button btn_login = findViewById(R.id.button2);
 
-        btn_login.setOnClickListener(new View.OnClickListener() {
+        Button goBtn = findViewById(R.id.button4);
+
+        goBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, AdminHome.class);
+                Intent intent = new Intent(Foodlist.this, address.class);
                 startActivity(intent);
             }
         });
