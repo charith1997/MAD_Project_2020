@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/main_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home">
+
+    </item>
+
+    <item
+        android:id="@+id/main_view_items"
+        android:icon="@drawable/ic_pageview_black_24dp"
+        android:title="View Items">
+
+    </item>
+
+    <item
+        android:id="@+id/main_edit_items"
+        android:icon="@drawable/ic_mode_edit_black_24dp"
+        android:title="Edit Items">
+
+    </item>
+
+    <item
+        android:id="@+id/main_delete_items"
+        android:icon="@drawable/ic_delete_black_24dp"
+        android:title="Delete Items">
+
+    </item>
+
+<!--    <item-->
+<!--        android:id="@+id/main_logout_option"-->
+<!--        android:icon="@drawable/ic_account_circle_black_24dp"-->
+<!--        android:title="Logout">-->
+
+<!--    </item>-->
+</menu>

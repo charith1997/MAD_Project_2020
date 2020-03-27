@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.mad_project">
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.sliit.canteen">
+
+    <dist:module dist:instant="true" />
 
     <application
         android:allowBackup="true"
@@ -9,23 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DeteleUser"></activity>
-        <activity android:name=".ViewUser" />
-        <activity android:name=".EditUser" />
-        <activity android:name=".AddUser" />
-        <activity android:name=".AdminHome" />
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".FinalOrder"/>
-        <activity android:name=".address" />
-        <activity android:name=".Foodlist" />
-        <activity android:name=".MainActivityCanteen">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
